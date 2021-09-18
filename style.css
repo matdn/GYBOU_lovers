@@ -11,3 +11,24 @@
 .row-fluid .span6{
     flex-direction: row-reverse !important;
 }
+
+.social-sidebar .user img {
+    display: none;
+}.social-sidebar .user img {
+     display: none;
+ }
+ .social-sidebar .user img {
+     display: none;
+ }
+
+.social-box.social-blue {
+    background-color: red !important ;
+    border-color: black !important;
+    padding: 14px 10px !important;
+}
+.social-box.social-blue header {
+    background-color: purple !important ;
+    padding: 14px 10px !important;
+    margin-bottom: 5px !important;
+}
+
