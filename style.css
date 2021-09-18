@@ -2,5 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
+.alert-info {
+    display: none !important;
+
+}
+.row-fluid .span6{
+    flex-direction: row-reverse !important;
+}
