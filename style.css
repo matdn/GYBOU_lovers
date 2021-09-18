@@ -8,3 +8,6 @@
     display: none !important;
 
 }
+.row-fluid .span6{
+    flex-direction: row-reverse !important;
+}
