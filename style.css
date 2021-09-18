@@ -11,4 +11,12 @@
 .breadcrumb{
     display: none !important;
 }
-
+.row-fluid [class*="span"]:first-child {
+    width:100%;
+}
+#student_photo{
+    width:200px;
+}
+#btn_photo_upl{
+    display: none !important;
+}
