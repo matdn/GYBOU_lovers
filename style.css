@@ -14,9 +14,33 @@
 .row-fluid [class*="span"]:first-child {
     width:100%;
 }
-#student_photo{
-    width:200px;
-}
+
 #btn_photo_upl{
     display: none !important;
+}
+.social-box{
+    border:none !important;
+}
+.span6{
+    position: relative;
+}
+#student_photo{
+    width:200px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.span4{
+    width: 300px !important;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+#bloc_infos_student{
+    display: none;
+}
+.well{
+    position: absolute;
+    top:650px;
+    left:10px;
 }
