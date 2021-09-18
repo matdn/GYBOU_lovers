@@ -6,5 +6,9 @@
 
 .alert-info {
     display: none !important;
-
 }
+
+.breadcrumb{
+    display: none !important;
+}
+
