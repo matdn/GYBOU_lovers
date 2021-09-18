@@ -50,7 +50,12 @@
 
 }
 */
-
+.accordion {
+    margin-bottom: -103px !important;
+}
+.tab-content{
+    display: none!important;
+}
 
 
 
