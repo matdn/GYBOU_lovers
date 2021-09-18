@@ -32,3 +32,23 @@
     margin-bottom: 5px !important;
 }
 
+[class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
+    float: right;
+    table-layout: auto !important;
+    width: 90% !important;
+    height: 3,5vh !important;
+    margin-bottom: 10px !important;
+    justify-content: center!important;
+    padding: 10px !important;
+    border-radius: 15px!important;
+}
+/*  Bouton test de langue a enlever
+.a.btn btn-warning pull-right{
+    display: none !important;
+
+}
+*/
+
+
+
+
