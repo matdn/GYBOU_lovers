@@ -6,8 +6,8 @@
 
 .alert-info {
     display: none !important;
-
 }
-.row-fluid .span6{
-    flex-direction: row-reverse !important;
+
+.breadcrumb{
+    display: none !important;
 }
