@@ -11,3 +11,30 @@
 .row-fluid .span6{
     flex-direction: row-reverse !important;
 }
+
+
+/* Pierrooooo */
+
+.schoole_pastil{
+    background: none !important;
+    border: none !important;
+}
+
+.small_margin{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80% !important;
+    margin: 10px 10% !important;
+}
+
+.btn, .btn-info, .btn-inverse, .btn-warning, .btn-primary, .btn-danger,  .btn-sucess{
+    border-radius: 15px !important;
+    background-color: rgb(100, 022, 195) !important;
+    color: greenyellow !important;
+    margin: 3px 10px 4px !important; /* top right bottom left */
+    padding: 4px 12px;
+    border-color: none !important;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 85%) !important;
+    background-image: none !important;
+}
