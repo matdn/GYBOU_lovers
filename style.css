@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-.alert-info {
-    display: none !important;
-}
-
-.breadcrumb{
+.alert-info, .pull-righ, .breadcrumb, .small_margin{
     display: none !important;
 }
 
@@ -16,22 +12,15 @@
     flex-direction: row-reverse !important;
 }
 
-
-/* Pierrooooo */
-
 .schoole_pastil{
     background: none !important;
     border: none !important;
-}
-.avatar:hover {
-	transform: rotate(36000deg);
-	transition: 10s;
 }
 .dropdown-toggle:hover {
 	transform: rotate(3600000deg);
 	transition: 500s;
 }
-.trigger-user-settings:hover {
+.trigger-user-settings:hover, .avatar:hover {
 	transform: rotate(36000deg);
 	transition: 5s;
 }
@@ -50,7 +39,6 @@
     width: 80% !important;
     margin: 10px 10% !important;
 }
-
 .btn, .btn-info, .btn-inverse, .btn-warning, .btn-primary, .btn-danger,  .btn-sucess{
     border-radius: 15px !important;
     background-color: rgb(100, 022, 195) !important;
@@ -60,10 +48,4 @@
     border-color: none !important;
     text-shadow: 0 1px 1px rgb(0 0 0 / 85%) !important;
     background-image: none !important;
-}
-.pull-righ{
-    display: none !important;
-}
-.small_margin {
-    display: none !important;
 }
