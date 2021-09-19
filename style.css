@@ -44,23 +44,25 @@
     border-radius: 15px!important;
     margin-right: 120px!important;
 }
-/*  Bouton test de langue a enlever
-.a.btn btn-warning pull-right{
-    display: none !important;
 
-}
-*/
 .accordion {
     margin-bottom: -103px !important;
 }
 .tab-content{
     display: none!important;
 }
-
-.social-blue {
+.social-bordered,.span12 {
     border-radius: 29px !important;
-    width: 96% !important;
-    height: 18vh!important;
+    margin-top: 1,5%!important;
 }
+
+.pull-right {
+    float: right!important;
+}
+
+.accordion-heading{
+    margin-top: 10% !important;
+}
+
 
 
