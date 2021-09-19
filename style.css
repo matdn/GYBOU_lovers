@@ -11,3 +11,58 @@
 .row-fluid .span6{
     flex-direction: row-reverse !important;
 }
+
+.social-sidebar .user img {
+    display: none;
+}.social-sidebar .user img {
+     display: none;
+ }
+ .social-sidebar .user img {
+     display: none;
+ }
+
+.social-box.social-blue {
+    background-color: darkgray !important ;
+    padding: 14px 10px !important;
+    table-border-color-light: brown!important;
+}
+.social-box.social-blue header {
+    background-color: rosybrown !important ;
+    padding: 14px 10px !important;
+    margin-bottom: 5px !important;
+    border-radius: 15px!important;
+}
+
+[class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
+    float: right;
+    table-layout: auto !important;
+    width: 90% !important;
+    height: 3,2vh !important;
+    margin-bottom: 10px !important;
+    justify-content: center!important;
+    padding: 10px !important;
+    border-radius: 15px!important;
+    margin-right: 120px!important;
+}
+
+.accordion {
+    margin-bottom: -103px !important;
+}
+.tab-content{
+    display: none!important;
+}
+.social-bordered,.span12 {
+    border-radius: 29px !important;
+    margin-top: 1,5%!important;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.accordion-heading{
+    margin-top: 10% !important;
+
+}
+
+
