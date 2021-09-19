@@ -17,6 +17,10 @@
     background: none !important;
     border: none !important;
 }
+.avatar:hover {
+	transform: rotate(36000deg);
+	transition: 10s;
+}
 .dropdown-toggle:hover {
 	transform: rotate(3600000deg);
 	transition: 500s;
@@ -50,6 +54,7 @@
     text-shadow: 0 1px 1px rgb(0 0 0 / 85%) !important;
     background-image: none !important;
 }
+
 /*Matis*/
 
 .alert-info {
