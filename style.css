@@ -20,12 +20,12 @@
  .social-sidebar .user img {
      display: none;
  }
-
+/*
 .social-box.social-blue {
     background-color: darkgray !important ;
     padding: 14px 10px !important;
     table-border-color-light: brown!important;
-}
+}*/
 .social-box.social-blue header {
     background-color: rosybrown !important ;
     padding: 14px 10px !important;
@@ -33,18 +33,16 @@
     border-radius: 15px!important;
 }
 
-[class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
-    float: right;
-    table-layout: auto !important;
-    width: 90% !important;
-    height: 3,2vh !important;
+.social-box social-bordered span12 pull-right {
+    width: 80% !important;
+    height: 3vh !important;
     margin-bottom: 10px !important;
-    justify-content: center!important;
     padding: 10px !important;
-    border-radius: 15px!important;
-    margin-right: 120px!important;
-}
+    border-radius: 3px!important;
+    margin-right: 5%!important;
+    margin-left: 5%!important;
 
+}
 .accordion {
     margin-bottom: -103px !important;
 }
@@ -53,7 +51,7 @@
 }
 .social-bordered,.span12 {
     border-radius: 29px !important;
-    margin-top: 1,5%!important;
+    margin-top: 20px!important;
 }
 
 .pull-right {
