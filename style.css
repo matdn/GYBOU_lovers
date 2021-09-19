@@ -7,7 +7,6 @@
 
 
 /* Romain */
-
 #footer{
     display: none!important;
 }
@@ -15,6 +14,7 @@
 #main{
     padding: 0px!important;
 }
+
 
 .alert-info, .pull-righ, .breadcrumb, .small_margin{
     display: none !important;
@@ -26,8 +26,8 @@
 .social-sidebar .user img {
     display: none;
 }.social-sidebar .user img {
-     display: none;
- }
+    display: none;
+}
 .social-sidebar .user img {
     display: none;
 }
@@ -139,17 +139,23 @@
 
 }
 #student_photo{
-    width:200px;
+    width:600px !important;
     position: absolute;
     top:10px;
     left: 10px;
+}
+.img-polaroid, .avatar{
+    width:300px !important;
 }
 .span4{
     width: 300px !important;
     position: absolute;
     top:10px;
-    left: 180px;
+    left: 300px;
     height: 250px;
+    color: cornsilk;
+    font-size: 20px;
+    padding-inline-end: 100px;
 }
 #bloc_infos_student{
     display: none;
@@ -166,6 +172,10 @@
 .social-box.social-orange.social-bordered{
     visibility: hidden !important;
 }
+.social-box, .social-blue, .social-bordered, .well-condensed, .activable, .modifiable{
+    box-shadow: none !important;
+} 
+
 .modif_btn.pull-right{
     visibility: hidden !important;
 }
@@ -186,9 +196,9 @@
     background-color: #31353e;
 }
 
-nav{
-    background-color: blue ;
-}
 #advancedTab1{
     visibility: hidden !important;
+}
+#footer{
+    background-color: cadetblue !important;
 }
