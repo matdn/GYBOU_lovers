@@ -18,8 +18,8 @@
 .social-sidebar .user img {
     display: none;
 }.social-sidebar .user img {
-    display: none;
-}
+     display: none;
+ }
 .social-sidebar .user img {
     display: none;
 }
@@ -54,7 +54,7 @@
 .accordion-heading{
     margin-top: 10% !important;
 
-}*/
+}
 
 .schoole_pastil{
     background: none !important;
@@ -62,16 +62,16 @@
     background-color: none !important;
 }
 .avatar:hover {
-	transform: rotate(36000deg);
-	transition: 10s;
+    transform: rotate(36000deg);
+    transition: 10s;
 }
 .dropdown-toggle:hover {
-	transform: rotate(3600000deg);
-	transition: 500s;
+    transform: rotate(3600000deg);
+    transition: 500s;
 }
 .trigger-user-settings:hover, .avatar:hover {
-	transform: rotate(36000deg);
-	transition: 5s;
+    transform: rotate(36000deg);
+    transition: 5s;
 }
 
 .brand:hover{
@@ -99,7 +99,7 @@
     color: cornsilk !important;
     margin: 3px 10px 4px !important; /* top right bottom left */
     padding: 4px 12px;
-    border-color: none !important; 
+    border-color: none !important;
     /*text-shadow: 0 1px 1px rgb(255 255 255/85%) !important; */
     background-image: none !important;
 }
