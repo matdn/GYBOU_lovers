@@ -8,6 +8,14 @@
 
 /* Romain */
 
+#footer{
+    display: none!important;
+}
+
+#main{
+    padding: 0px!important;
+}
+
 .alert-info, .pull-righ, .breadcrumb, .small_margin{
     display: none !important;
 }
