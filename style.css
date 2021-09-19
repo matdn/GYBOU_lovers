@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.alert-info {
+.alert-info, .pull-righ, .breadcrumb, .small_margin{
     display: none !important;
-
 }
+
 .row-fluid .span6{
     flex-direction: row-reverse !important;
 }
-
 .social-sidebar .user img {
     display: none;
 }.social-sidebar .user img {
@@ -37,7 +37,7 @@
     float: right;
     table-layout: auto !important;
     width: 90% !important;
-    height: 3,2vh !important;
+    height: 3vh !important;
     margin-bottom: 10px !important;
     justify-content: center!important;
     padding: 10px !important;
@@ -53,7 +53,7 @@
 }
 .social-bordered,.span12 {
     border-radius: 29px !important;
-    margin-top: 1,5%!important;
+    margin-top: 2vh !important;
 }
 
 .pull-right {
@@ -65,4 +65,102 @@
 
 }
 
+.schoole_pastil{
+    background: none !important;
+    border: none !important;
+}
+.avatar:hover {
+	transform: rotate(36000deg);
+	transition: 10s;
+}
+.dropdown-toggle:hover {
+	transform: rotate(3600000deg);
+	transition: 500s;
+}
+.trigger-user-settings:hover, .avatar:hover {
+	transform: rotate(36000deg);
+	transition: 5s;
+}
+.brand:hover{
+    transform: translateX(1310px);
+    transition: 6s;
+}
+.page-title:hover{
+    transform: translateX(1170px);
+    transition: 4s;
+}
+.small_margin{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80% !important;
+    margin: 10px 10% !important;
+}
+.btn, .btn-info, .btn-inverse, .btn-warning, .btn-primary, .btn-danger,  .btn-sucess{
+    border-radius: 15px !important;
+    background-color: rgb(100, 022, 195) !important;
+    color: greenyellow !important;
+    margin: 3px 10px 4px !important; /* top right bottom left */
+    padding: 4px 12px;
+    /*  border-color: none !important; 
+  text-shadow: 0 1px 1px rgb(0 0 0 /85%) !important; */
+    background-image: none !important;
+}
 
+/*Matis*/
+
+.alert-info {
+    display: none !important;
+}
+
+.breadcrumb{
+    display: none !important;
+}
+.row-fluid [class*="span"]:first-child {
+    width:100%;
+}
+
+#btn_photo_upl{
+    display: none !important;
+}
+.social-box{
+    border:none !important;
+}
+.span6{
+    position: relative;
+}
+#student_photo{
+    width:200px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.span4{
+    width: 300px !important;
+    position: absolute;
+    top:10px;
+    left: 150px;
+    height: 250px;
+}
+#bloc_infos_student{
+    display: none;
+}
+.well{
+    position: absolute;
+    top:650px;
+    left:10px;
+}
+.advancedTab1{
+    display: none !important;
+}
+
+.social-box.social-orange.social-bordered{
+    visibility: hidden !important;
+
+}
+.modif_btn.pull-right{
+    visibility: hidden !important;
+}
+.btn .btn-small{
+    visibility: hidden;
+}
