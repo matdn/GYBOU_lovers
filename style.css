@@ -22,15 +22,15 @@
 }
 
 .social-box.social-blue {
-    background-color: darkgray !important ;
+    background-color: cadetblue !important ;
     padding: 14px 10px !important;
     table-border-color-light: brown!important;
 }
 .social-box.social-blue header {
-    background-color: rosybrown !important ;
+    background-color: #31353e !important ;
     padding: 14px 10px !important;
     margin-bottom: 5px !important;
-    border-radius: 15px!important;
+    border-radius: 2px!important;
 }
 
 .accordion {
@@ -40,7 +40,7 @@
     display: none!important;
 }
 .social-bordered,.span12 {
-    border-radius: 29px !important;
+    border-radius: 5px !important;
     margin-top: 2vh !important;
 }
 
@@ -100,7 +100,10 @@
   text-shadow: 0 1px 1px rgb(0 0 0 /85%) !important; */
     background-image: none !important;
 }
-
+.btn:hover{
+    background-color: cornsilk !important;
+    color: cadetblue !important;
+}
 /*Matis*/
 
 .alert-info {
@@ -134,7 +137,7 @@
     width: 300px !important;
     position: absolute;
     top:10px;
-    left: 150px;
+    left: 180px;
     height: 250px;
 }
 #bloc_infos_student{
@@ -151,7 +154,6 @@
 
 .social-box.social-orange.social-bordered{
     visibility: hidden !important;
-
 }
 .modif_btn.pull-right{
     visibility: hidden !important;
@@ -175,4 +177,7 @@
 
 nav{
     background-color: blue ;
+}
+#advancedTab1{
+    visibility: hidden !important;
 }
