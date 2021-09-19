@@ -33,20 +33,8 @@
     border-radius: 15px!important;
 }
 
-[class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
-    float: right;
-    table-layout: auto !important;
-    width: 90% !important;
-    height: 3vh !important;
-    margin-bottom: 10px !important;
-    justify-content: center!important;
-    padding: 10px !important;
-    border-radius: 15px!important;
-    margin-right: 120px!important;
-}
-
 .accordion {
-    margin-bottom: -103px !important;
+    margin-bottom: -50px !important;
 }
 .tab-content{
     display: none!important;
@@ -63,11 +51,12 @@
 .accordion-heading{
     margin-top: 10% !important;
 
-}
-/* Pierrooooo */
+}*/
+
 .schoole_pastil{
     background: none !important;
     border: none !important;
+    background-color: none !important;
 }
 .avatar:hover {
 	transform: rotate(36000deg);
@@ -81,13 +70,18 @@
 	transform: rotate(36000deg);
 	transition: 5s;
 }
+
 .brand:hover{
     transform: translateX(1310px);
     transition: 6s;
 }
+.page-title{
+    color: cornsilk !important;
+}
 .page-title:hover{
     transform: translateX(1170px);
     transition: 4s;
+    color: cornsilk !important;
 }
 .small_margin{
     display: flex !important;
@@ -98,8 +92,8 @@
 }
 .btn, .btn-info, .btn-inverse, .btn-warning, .btn-primary, .btn-danger,  .btn-sucess{
     border-radius: 15px !important;
-    background-color: rgb(100, 022, 195) !important;
-    color: greenyellow !important;
+    background-color: cadetblue !important;
+    color: cornsilk !important;
     margin: 3px 10px 4px !important; /* top right bottom left */
     padding: 4px 12px;
     /*  border-color: none !important; 
@@ -128,6 +122,7 @@
 }
 .span6{
     position: relative;
+
 }
 #student_photo{
     width:200px;
@@ -163,4 +158,21 @@
 }
 .btn .btn-small{
     visibility: hidden;
+}
+
+/*modif colors*/
+
+.social-sidebar{
+    background-color: cadetblue !important;
+    color: cornsilk !important;
+}
+.accordion-toggle{
+    color: cornsilk !important;
+}
+.container-fluid{
+    background-color: #31353e;
+}
+
+nav{
+    background-color: blue ;
 }
